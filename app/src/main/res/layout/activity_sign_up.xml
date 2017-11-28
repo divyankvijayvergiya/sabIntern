@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/sabinternlogo">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/linear_logo_layout"
+        android:background="@color/darkBlue">
+        <EditText
+            android:id="@+id/User_sign_up_mobile_no."
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/input_background"
+            android:inputType="number"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:textColorHint="@android:color/white"
+            android:textStyle="bold"
+            android:hint="\t\t\tEnter your Full name here"/>
+        <EditText
+            android:id="@+id/user_email_id"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/input_background"
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColorHint="@android:color/white"
+            android:textStyle="bold"
+            android:hint="\t\t\tEnter your Email Id here"/>
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/input_background"
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColorHint="@android:color/white"
+            android:textStyle="bold"
+            android:hint="\t\t\tEnter your Mobile number here"/>
+        <Button
+            android:id="@+id/generate_otp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:background="@drawable/buttonotp_background"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
